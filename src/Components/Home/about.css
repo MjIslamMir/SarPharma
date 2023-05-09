@@ -1,0 +1,37 @@
+.aboutee{
+    margin: 0%;
+    padding: 20px;
+    background:conic-gradient(black,rgb(53, 6, 6));
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+}
+.aboutee h1{
+    text-align: center;
+}
+.aboutee #description{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.details img{
+    align-items: center;
+    padding-left:30px;
+    border-radius: 5px;
+    height: 400px;
+}
+.desc{
+    padding-left: 50px;
+    max-width: 752px;
+    color: rgb(255, 255, 255);
+}
+.desc a{
+    display: block;
+    width:max-content;
+    background-color:rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 5px;
+    color:rgb(255, 255, 255);
+}
+.desc a:hover{
+    color: rgb(0, 255, 94);
+}

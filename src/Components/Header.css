@@ -1,0 +1,41 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, #700000, #6a26a1);
+    padding: 10px;
+    /* border-radius:5px; */
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin-left: 1rem;
+  }
+  
+  nav a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight:700;
+    transition: all 0.3s ease;
+    border-radius: 10px;
+    margin:5px;
+    color: aliceblue;
+  }
+  
+  nav a:hover {
+    background-color: #f7efef;
+    color: black;
+    padding: 10px;
+  }
+  .PortalTitle{
+    font-size: 25px;
+    font-weight: 600;
+    color: #f1f1f1;
+
+  }

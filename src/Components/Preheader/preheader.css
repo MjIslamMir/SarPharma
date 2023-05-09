@@ -1,0 +1,24 @@
+.prehead{
+    background:linear-gradient(to left, rgb(15, 54, 82),rgb(0, 0, 0));
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+} 
+.call{
+    font-size:medium;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-left: 50px;
+}
+.call span{
+    padding-left:20px;
+    color: white;
+}
+.socialNets{
+    padding-right: 50px;
+}
+.socialNets img{
+    padding-top: 10px;
+    padding-right: 20px;
+    height: 25px;
+}
